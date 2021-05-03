@@ -1,5 +1,14 @@
 # simpleDict
-simple dictionary app which uses dictionaryapi.dev API
+simple nodejs dictionary app which uses dictionaryapi.dev API and express.js
+
+# run
+install npm packages with command : npm i
+then run the server with command: node index
+
+open this link on the browser:
+
+http://localhost:3000
+
 
 # Search View
 ![check](https://user-images.githubusercontent.com/54360982/116883073-77e20280-ac25-11eb-8eaa-7083f92bcec1.png)
