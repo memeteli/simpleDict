@@ -1,0 +1,18 @@
+{
+  "name": "sozlukcu",
+  "version": "1.0.0",
+  "description": "Sozlukcu Node.js Appp ",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon"
+  },
+  "keywords": [
+    "sozluk"
+  ],
+  "author": "Ailiniyazi <a.maimaiti@fkc-online.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
