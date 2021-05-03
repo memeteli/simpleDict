@@ -1,7 +1,7 @@
 # simpleDict
 simple dictionary app which uses dictionaryapi.dev API
 
-#Search View
+# Search View
 ![check](https://user-images.githubusercontent.com/54360982/116883073-77e20280-ac25-11eb-8eaa-7083f92bcec1.png)
 
 # Result view
