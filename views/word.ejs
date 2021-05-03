@@ -1081,15 +1081,25 @@
         <div class="inner-form">
             <h1>You searched: <% if (data) { %>
                     <%= data.word %>
-
             </h1>
             <table class="table table-striped">
-                <tr>
-                    <td>Origin </td>
-                    <td>
-                        <%= data.origin %>
-                    </td>
-                </tr>
+        <% if (data.meanings.length> 0) { %>
+        <% for(var i=0; i < data.meanings.length; i++) { %>
+        <tr>
+            <td>Meaning: </td>
+            <td><%= data.meanings[i].definitions[0].definition %></td>
+        </tr>
+            <tr>
+                <td>Example: 
+                </td>
+                <td>
+                    <%= data.meanings[i].definitions[0].example %>
+                </td>
+            </tr>
+        <% } %>
+       <% } %>
+        </table>
+        <% } %>
         </div>
     </div>
 </body>
