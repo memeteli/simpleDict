@@ -2,8 +2,8 @@
 simple nodejs dictionary app which uses dictionaryapi.dev API and express.js
 
 # run
-install npm packages with command : npm i
-then run the server with command: node index
+install npm packages with command : `npm i`
+then run the server with command: `node index`
 
 open this link on the browser:
 
