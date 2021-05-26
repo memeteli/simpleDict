@@ -1,6 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c5798d7a-59d1-4bb5-b73f-a278c9b23934/deploy-status)](https://app.netlify.com/sites/simpledict/deploys)
-
-Visit this app via https://simpledict.netlify.app/
 # simpleDict
 simple nodejs dictionary app which uses dictionaryapi.dev API and express.js
 
